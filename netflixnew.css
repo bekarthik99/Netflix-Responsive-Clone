@@ -707,6 +707,14 @@ body{
     height: 3.5rem;
     /*background-color: #210e17;*/
 }
+.freqtxt{
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 5rem;
+    margin-left: 9.3rem;
+    position: relative;
+}
 @media screen and (max-width: 575px) {
     .maincaption{
         font-size: 2rem;
@@ -867,7 +875,7 @@ body{
     .prefooter{
         background-color: black;
         width: 100%;
-        height: 150vh;
+        height: 300vh;
         margin-top: -5.9rem;  
         z-index: 100;  
     }
@@ -877,5 +885,390 @@ body{
         min-width: 93.5%;
         margin-left: .9rem;
     }
-    
+    .container{
+        width: 100%;
+        /*background-color: rgb(30, 29, 28);*/
+        overflow: hidden;
+        box-sizing: border-box;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        margin-top: .6rem;
+    }
+    .movie1{
+        flex: 0 0 11.65%;
+        width: 7rem;
+        height: 9.8rem;
+        aspect-ratio: 5 / 7;
+        background-image: url(https://occ-0-6155-3663.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABRh-gv1FQdodOSeMDRsLwy4WESuMjUaflt5lJieY8l_XVXnoZuabtBVmGfyYgqj-spmMyW62FOxFK-YxssQ-z5dmMEoTSre0Kdx8E6y74dzKprPzKEsvlsZONM8rQ4EQk0TF2OLJtz-Bc_hnwSblBS0TvIw4Xik5Iyk.webp?r=e1d);
+        background-size: cover;
+        border-radius: 8px;
+        margin-right: 1.2rem;
+    }
+    .movie2{
+        flex: 0 0 11.65%;
+        width: 7rem;
+        height: 9.8rem;
+        aspect-ratio: 5 / 7;
+        background-image: url(https://occ-0-6155-3663.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABcYIdkglp6B86cFnjVVQsCVrcS5wMFQI_WUIhGDQ8HzHqR1jA_4eZzUEbJ2diFCv_X94sFydL1xPOAstW5NJ7vofn5L8apYclblsguyD4ZrGnjrMSHnoTQMNI0PnhMwFPdppnSxTIIFeOqajxOt9jByN3vv03-T8WOzxUWVi3-WwMhH2TQJZ9LSijb79MNTNXZt7Z_jC1PxXrGtgx1nJeta9utX8fAaEBht1b7lI6C_RvjinY6HR0IhwpWX80IZ4B6CfWxAcEHVMpGbi-zIDzFiqxbo5flKP0OJQ46w7TDy3u0SU2aY4rQIp8yvGb7TZ3Ri1ERsJVPxm53rSA7iPDchRrOnX0wv136x3wRQP7Po_LBlcIlo.webp?r=201);
+        background-size: cover;
+        border-radius: 8px;
+        margin-right: 1.2rem;
+    }
+    .movie3{
+        flex: 0 0 11.65%;
+        width: 7rem;
+        height: 9.8rem;
+        aspect-ratio: 5 / 7;
+        background-image: url(https://occ-0-6155-3663.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABd-YGh_bvuzKadnvPj27fy7lHwG7D8nUzfyWGi0NZqxoh1kyQt77A2BiwNHGjzSLv3dnMZReXSh5lsWbAcRIh6ND90eTYRvGalmEDch76KEonU6raBwRCyr7ZuK_lYdZzyu7jNgvYk_2TQR0AXCY-J17Em8pKqaEnvr9Ls6VeTbZ-u35hhBJW36ZQlOvRrjWmDFtvM0GgYLGkRLjs4MEz757x7N3qO--L07hmWjtYACCmekzf0sZu43sMvQyjxqozJbXQPauKX-nG4U64I5uF-SAlyqEpVff-x7leN9btgLmUoLbWnJ9YSaAr47CwXVneDdd_wPQLU8_f3JTlZjrs8k.webp?r=bf7);
+        background-size: cover;
+        border-radius: 8px;
+        margin-right: 1.2rem;
+    }
+    .movie4{
+        flex: 0 0 11.65%;
+        width: 7rem;
+        height: 9.8rem;
+        aspect-ratio: 5 / 7;
+        background-image: url(https://occ-0-6155-3663.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABY2wEo96cXNfBuCNtJIp0W8vNebys8ZlwuBDPq9EEhbL-My9RPnwZ5PPxg4yrOz7yJlC8LYnqAnRUNmOqumrtB3qVmjFSLXqBhNkJ7PPkUngDGcoH2rJWcmYg6yIjanNErxDJNETiLuL00VoNKR9se7-ckUDg7srObeoR6hs6G_Sxq5beT9gYSwWpLhgNLKndNNV-ai9LszBoiJI6ULEXuOru0uZwhN810OY379v4legIapQOSVQg2bELu06G4vYREcuUgiqEJQJKOm3mWjrAlRLiXyrJrrUXka1UlU_cJEbGbofFk49FfCJiMdB4JDCbu06sd1A_LZj2YPvXb1Agwg.webp?r=978);
+        background-size: cover;
+        border-radius: 8px;
+        margin-right: 1.2rem;
+    }
+    .movie5{
+        flex: 0 0 11.65%;
+        width: 7rem;
+        height: 9.8rem;
+        aspect-ratio: 5 / 7;
+        background-image: url(https://occ-0-6155-3663.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABckw-yg7pblpO98kyTmn-f8uhf4D42Dce0GtBzgwwmP2ihLM9aNZL5f5g7QlcdQkzWRnzHJ_dOR1BUf-PTzHVd-w6-EQUnicFZ4AwC9djKgpn-Rkw9foTo2pYGASEBD7G5lTmSWsHwu-VWklNPj_zMIeU5B6EP43gvqwGGTZln_8rWkoisa_7i7hprWKCaOBiO_D_WjKfu5C2H0Fi5LYaSXdh_yXcs7cIJiKXkZfgmqgx4anUWfRYDcnF-PaH4uyygnZsS8vw1LdNAjncjZBURsxkwMlBd9PbNZvz6I7KlgAshRZXRDhbl823pjk-G6H6B6H9Rpr8LaqP0W1-kyANsToWFtUlDo1IfZg4gOvj8jA6yGhoYc.webp?r=ff5);
+        background-size: cover;
+        border-radius: 8px;
+        margin-right: 1.2rem;
+    }
+    .movie6{
+        flex: 0 0 11.65%;
+        width: 7rem;
+        height: 9.8rem;
+        aspect-ratio: 5 / 7;
+        background-image: url(https://occ-0-6155-3663.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABcLQt0rSp0K79TguxpJuedM5kvIircNdnTJcLcMP1bIgBl6GBsjVIWHkmTV8yPhAuGrBSyBX-NnJo9AHTbRGAt7P79jhtnYWT8Hm7N4pxPS0_nB-lBo_qRQS3LcLKADa6HcyrGEqSR4QiIPH9lvp05nKHJHuKcoVhcSpDWcvdWfls8ZgaVVRI4vxlasBsb9recPo04rezeyojytiCFGtA0X7I_x_-HIM-6ihqOBZnvvSB_UsGcb9cDx4IEFrdce4u08OCX64kt-TwZFS-6tMDnHALOTJoXhjdhXA0VrNsTlVoYWo-82RVb9GtAsb36nYY1l6VUM9hCOLTAuEQORBbJ0.webp?r=595);
+        background-size: cover;
+        border-radius: 8px;
+        margin-right: 1.2rem;
+    }
+    .movie7{
+        flex: 0 0 11.65%;
+        width: 7rem;
+        height: 9.8rem;
+        aspect-ratio: 5 / 7;
+        background-image: url(https://occ-0-6155-3663.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABc2yIy-ZB86sxAXJG5yLPScgypuyYgK5lZAUBQEo8gg2g93qqBeXfQbprx1eRJlVzox4JK8HxG4WDJ5H_ETg3EX3l3GeeRYoDKYWoM2MiHKzzxvmRqMeZkJX6dV5Mrtw1_TWJKst_8mFI76qVPuCB2COqP5JRykaQmw8-fN2pSuS5tFkg1Bz0KV5qdcZ2wqUfkpTX2H1ZuVRsf1-eW8c8tR6bY2-DzfCdjZ3wTFv27cRH9YLu25uZE6kTSSncCt-5ivOaM5uxl6vxs5A7LkThpMiILkQx-FmhOUB2JExS5KCTq_NpHNffNxlm7hMoblN60NoEpY7fjalx81wu3Tl-jmQ_6BONYwRMcnRl_SEIfnwSAWWVSE.webp?r=60b);
+        background-size: cover;
+        border-radius: 8px;
+        margin-right: 1.2rem;
+    }
+    .movie8{
+        flex: 0 0 11.65%;
+        width: 7rem;
+        height: 9.8rem;
+        aspect-ratio: 5 / 7;
+        background-image: url(https://occ-0-6155-3663.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABfmJWdRZydv-R8MeONaZYix0PhEmINR6QRvBzEOU_2IvwjkJQYIzbyoXTPTMRA085Rah-YlKJ62ZzmW6w0iT8FA6F_gvm0d24pMtTpiv2fTxKjhrIXJJ9OIfV6IIX5RgjtA7f96Qw8hsiccI9c1sgaYV8yH9kTg_86_pPoHYS0LxrwmiMQzYbmvPRXQjb0CuqeYVFJMlVqeUVQqjOvssbE0l8dQ_qpkwKvUFLlQHpd6fVI9Xv9BMOm4PAdyYsYmQO1FQDEl3hQmTkRWvNdZVt62FvHrb.webp?r=9a3);
+        background-size: cover;
+        border-radius: 8px;
+        margin-right: 1.2rem;
+    }
+    .movie9{
+        flex: 0 0 11.65%;
+        width: 7rem;
+        height: 9.8rem;
+        aspect-ratio: 5 / 7;
+        background-image: url(https://occ-0-6155-3663.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABb7eHPTSWGCu247RvpZJHdW3qttaBrCbgX9RNWKBw-ysL1Tht2-OWWS4N5UarllTVyaC-5cX5Er5vJ-Y_LfK5STgnoG_iVkmt0Y.webp?r=680);
+        background-size: cover;
+        border-radius: 8px;
+        margin-right: 1.2rem;
+    }
+    .movie10{
+        flex: 0 0 11.65%;
+        width: 7rem;
+        height: 9.8rem;
+        aspect-ratio: 5 / 7;
+        background-image: url(https://occ-0-6155-3663.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABVrfZb8vVGR8ahZ4AWk-3rvCSBKCmL7_pBFAJntT0YP8Aipjjktx2Z-u_nKXCkmzvzOxB92Q0VJOc2NXIOsRkLRShlqPyiS-Wav-GgwB1MLAvJU4FAil51as51k8ZKYc-OE-GjBKYlNgGMBoeNfQYjU49Aej8SQ6v1empl1JAdtnF2O1i7IqIHX7H8iMyjBZJRBwrU-sVdiaX_qZ_lTiWLGSi4y8K1BvRbJFWVo88edulfqex3GOqw10to-hFX1Pl9ArkKP63vB1GzBy_kFhzEipsbwIDnPvxGlwt9JESeCAaR-r6hd8vMst.webp?r=bf2);
+        background-size: cover;
+        border-radius: 8px;
+        margin-right: 1.2rem;
+    }
+    .slider{
+        display: flex;
+        transform: translateX(-00%);
+        padding-left: 1.3rem;
+    }
+    .reasonstxt{
+        font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+        font-size: 1.1rem;
+        color: white;
+        margin-top: 5rem;
+        margin-left: 1.5rem;
+        position: relative;
+        font-weight: bold;
+    }
+    .container1{
+        flex: 0 0 11.65%;
+        display: flex;
+        /*background-color: aliceblue;*/
+        margin-top: 1.2rem;
+        width: 100%;
+        height: 36.5h;
+        box-sizing: border-box;
+        padding-left: 1.5rem;
+        padding-right: 9rem;
+    }
+    .quest1{
+        width: 27.3rem;
+        height: 4.8rem;
+        margin-bottom: .55rem;
+        background-color: #232222;
+        border-style: solid;
+        border-width: 0px;
+        color: white;
+        font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+        font-size: 1.2rem;
+        font-weight: 500;
+        text-align: left;
+        box-sizing: border-box;
+        padding-left: 1.5rem;
+    }
+    .plusicon1{
+        width: 1.7rem;
+        margin-left: 13.8rem;
+    }
+    .quest2{
+        width: 27.3rem;
+        height: 4.8rem;
+        margin-bottom: .55rem;
+        background-color: #232222;
+        border-style: solid;
+        border-width: 0px;
+        color: white;
+        font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+        font-size: 1.2rem;
+        font-weight: 500;
+        text-align: left;
+        box-sizing: border-box;
+        padding-left: 1.5rem;
+    }
+    .plusicon2{
+        width: 1.7rem;
+        margin-left: 6.5rem;
+    }
+    .quest3{
+        width: 27.3rem;
+        height: 4.8rem;
+        margin-bottom: .55rem;
+        background-color: #232222;
+        border-style: solid;
+        border-width: 0px;
+        color: white;
+        font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+        font-size: 1.2rem;
+        font-weight: 500;
+        text-align: left;
+        box-sizing: border-box;
+        padding-left: 1.5rem;
+    }
+    .plusicon3{
+        width: 1.7rem;
+        margin-left: 11.7rem;
+    }
+    .quest4{
+        width: 27.3rem;
+        height: 4.8rem;
+        margin-bottom: .55rem;
+        background-color: #232222;
+        border-style: solid;
+        border-width: 0px;
+        color: white;
+        font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+        font-size: 1.2rem;
+        font-weight: 500;
+        text-align: left;
+        box-sizing: border-box;
+        padding-left: 1.5rem;
+    }
+    .plusicon4{
+        width: 1.7rem;
+        margin-left: 13rem;
+    }
+    .quest5{
+        width: 27.3rem;
+        height: 4.8rem;
+        margin-bottom: .55rem;
+        background-color: #232222;
+        border-style: solid;
+        border-width: 0px;
+        color: white;
+        font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+        font-size: 1.2rem;
+        font-weight: 500;
+        text-align: left;
+        box-sizing: border-box;
+        padding-left: 1.5rem;
+    }
+    .plusicon5{
+        width: 1.7rem;
+        margin-left: 6.6rem;
+    }
+    .quest6{
+        width: 27.3rem;
+        height: 4.8rem;
+        margin-bottom: .55rem;
+        background-color: #232222;
+        border-style: solid;
+        border-width: 0px;
+        color: white;
+        font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+        font-size: 1.2rem;
+        font-weight: 500;
+        text-align: left;
+        box-sizing: border-box;
+        padding-left: 1.5rem;
+    }
+    .plusicon6{
+        width: 1.7rem;
+        margin-left: 9.2rem;
+    }
+    .questdiv{
+        /*background-color: aquamarine;*/
+        width: 100%;
+        height: 34.5rem;
+        box-sizing: border-box;
+        padding-top: .6rem;
+        padding-left: 1.5rem;
+        margin-top: 0rem;
+    }
+    .freqtxt{
+        font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+        font-size: 1.1rem;
+        color: white;
+        margin-top: 8rem;
+        margin-left: 1.5rem;
+        position: relative;
+        font-weight: bold;
+    }
+    .reason1div{
+        min-width: 27rem;
+        height: 26vh;
+        background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+        border-radius: 15px;
+        margin-right: 1rem;
+        box-sizing: border-box;
+        padding-left: 1rem;
+        padding-top: 1.5rem;
+        padding-right: 1rem;
+        margin-bottom: .5rem;
+    }
+    .reason2div{
+        min-width: 27rem;
+        height: 26vh;
+        background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+        border-radius: 15px;
+        margin-right: 1rem;
+        box-sizing: border-box;
+        padding-left: 1rem;
+        padding-top: 1.5rem;
+        padding-right: 1rem;
+        margin-bottom: .5rem;
+    }
+    .reason3div{
+        min-width: 27rem;
+        height: 26vh;
+        background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+        border-radius: 15px;
+        margin-right: 1rem;
+        box-sizing: border-box;
+        padding-left: 1rem;
+        padding-top: 1.5rem;
+        padding-right: 1rem;
+        margin-bottom: .5rem;
+    }
+    .reason4div{
+        min-width: 27rem;
+        height: 26vh;
+        background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+        border-radius: 15px;
+        margin-right: 1rem;
+        box-sizing: border-box;
+        padding-left: 1rem;
+        padding-top: 1.5rem;
+        padding-right: 1rem;
+        margin-bottom: .5rem;
+    }
+    .imagereas1{
+        width: 5.4rem;
+        margin-left: 21rem;
+        margin-top: -1.5rem;
+    }
+    .imagereas2{
+        width: 5rem;
+        margin-left: 21.1rem;
+        margin-top: -3rem;
+    }
+    .imagereas3{
+        width: 5rem;
+        margin-left: 21rem;
+        margin-top: -1rem;
+    }
+    .imagereas4{
+        width: 4.7rem;
+        margin-left: 21rem;
+        margin-top: -2rem;
+    }
+    .emailfldbig{
+        max-width: 100%;
+        min-width: 93%; 
+        height: 3.5rem;
+        font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+        font-size: 1rem;
+        padding-left: 1rem;
+        background-color: #232222;
+        filter: opacity(80%);
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 5px;
+        border-color: gray;
+        color: white;
+    }
+    .getstartedbig{
+        border-style: solid;
+        border-width: 0px;
+        background-color: #e50914;
+        color: white;
+        font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+        font-size: 1.5rem;
+        font-weight: 500;
+        border-radius: 5px;
+        height: 3.55rem;
+        width: 13rem;
+        margin-left: .3rem;
+    }
+    .promptdivbig{
+        width: 100%;
+        display: flex;
+        /*background-color: rgb(100, 100, 161);*/
+        height: 4.8rem;
+        text-align: center;
+        vertical-align: middle;
+        justify-content: center;
+        box-sizing: border-box;
+        padding-top: 0rem;
+    }
+    .caption2big{
+        /*background-color: #232222;*/
+        max-width: 100%;
+        min-width: 60%;
+        box-sizing: border-box;
+        padding-left: 2rem;
+    }
+    .reasinner{
+        display: block;
+        width: 88vw;
+        height: 100vh;
+        /*background-color: aqua;*/
+    }
 }
